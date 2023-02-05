@@ -25,11 +25,12 @@ body {
 .main {
     width: 100%;
     min-height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 
     -webkit-perspective: 1000;
     perspective: 1000;
 }
+
 #panel-container {
     width: 400%;
     height: 100vh;
@@ -47,6 +48,50 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+#languages {
+    width: 100%;
+    min-height: 5vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+#languages img {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+}
+
+#project {
+/* 3:8 ratio */
+    height: 12vw;
+    width: 32vw;
+    padding: 2vw;
+
+    background-color: rgb(50, 50, 50);
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#project img {
+    height: 10vw;
+    width: 10vw;
+
+    padding-right: 2vw;
+}
+
+#project p {
+    position: absolute;
+    height: 10vw;
+    width: 20vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
