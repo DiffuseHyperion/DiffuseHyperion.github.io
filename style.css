@@ -94,6 +94,10 @@ body {
     justify-content: center;
 }
 
+#hint {
+    position: absolute;
+}
+
 .footer {
     width: 100%;
     min-height: 7vw;

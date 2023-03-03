@@ -1,11 +1,13 @@
 var controller = new ScrollMagic.Controller();
 
 var wipeAnimation = new TimelineMax()
+	// animate hint to scroll down
+	.fromTo("#panel1 h4", {opacity: "1"}, {opacity: "0", duration: "0.1"}, 0)
+
 	// animate intro
 	.fromTo("#panel1 h1", {y: "-20%", opacity: "0"}, {y: "0", opacity: "1", duration: "1"}, 0)
 	.fromTo("#panel1 h2", {y: "-20%", opacity: "0"}, {y: "0", opacity: "1", duration: "1"}, 0.25)
 	.fromTo("#panel1 h3", {y: "-20%", opacity: "0"}, {y: "0", opacity: "1", duration: "1"}, 0.50)
-	.fromTo("#panel1 h4", {y: "-20%", opacity: "0"}, {y: "0", opacity: "1", duration: "1"}, 0.75)
 
 	// animate to second panel
 	.to("#panel-container", {x: "-25%", duration: "0.5"}, 1.5)
