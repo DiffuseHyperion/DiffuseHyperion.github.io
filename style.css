@@ -50,6 +50,18 @@ body {
     text-align: center;
 }
 
+.card {
+    padding: 7vw;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(50, 50, 50);
+    border-radius: 2vw;
+}
+
 #languages {
     width: 100%;
     min-height: 5vw;
@@ -72,8 +84,8 @@ body {
 
 #project {
 /* 3:8 ratio */
-    height: 12vw;
-    width: 32vw;
+    height: 9vw;
+    width: 24vw;
     padding: 2vw;
 
     background-color: rgb(50, 50, 50);
@@ -81,6 +93,7 @@ body {
     display: flex;
     align-items: center;
     text-align: left;
+    border-radius: 2vw;
 }
 
 #project img {

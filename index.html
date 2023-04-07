@@ -15,28 +15,36 @@
           <div id="hint">
             <h4>(scroll down)</h4>
           </div>
-          <h1>Hey there &#128075;</h1>
-		      <h2>I'm Diffuse</h2>
-		      <h3>and I put the pro in procrastination</h3>
+          <div class="card">
+            <h1>Hey there &#128075;</h1>
+            <h2>I'm Diffuse</h2>
+            <h3>and I put the pro in procrastination</h3>
+          </div>
         </div>
 
         <div id="panel2" class="panel">
-          <h1>I'm a aspiring developer</h1>
-          <h2>And I like to create dumb projects</h2>
-
-          <h3 style="margin-top: 2vw; margin-bottom: 2vw;">I currently know:</h3>
-          <div id="languages">
-            <img id="language1" src="assets/java-icon.svg">
-            <img id="language2" src="assets/python-icon.svg">
+          <div class="card">
+            <h1>I'm a aspiring developer</h1>
+            <h2>And I like to create dumb projects</h2>
+  
+            <h3 style="margin-top: 2vw; margin-bottom: 2vw;">I currently know:</h3>
+            <div id="languages">
+              <img id="language1" src="assets/java-icon.svg">
+              <img id="language2" src="assets/python-icon.svg">
+            </div>
           </div>
         </div>
 
         <div id="panel3" class="panel">
-          <h1>Check my projects out!</h3>
-          <h4>(spoiler: they probably suck)</h4>
+          <div class="card" style="padding: 4vw;">
+            <h1>Check my projects out!</h3>
+              <h4>(spoiler: they probably suck)</h4>
+          </div>
           <div id="project_list">
             <div id="project">
-              <img src="assets/placeholder-icon.svg">
+              <a href="https://www.spigotmc.org/members/diffusehyperion.1198010/#resources">
+                <img src="assets/placeholder-icon.svg">
+              </a>
               <div id="description">
                 <h2>Spigot</h2>
                 <p>Spigot is a custom Minecraft server which allows users to create their own plugins.</p>
@@ -44,24 +52,40 @@
               </div>
             </div>
             <div id="project">
-              <img src="assets/placeholder-icon.svg">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos, totam esse quidem facilis dolorum magni nostrum voluptates saepe, explicabo debitis, suscipit labore? Atque expedita harum molestias impedit explicabo aperiam?</p>
+              <a href="https://github.com/DiffuseHyperion?tab=repositories&q=docker&type=&language=&sort=">
+                <img src="assets/placeholder-icon.svg">
+              </a>
+              <div id="description">
+                <h2>Docker Images</h2>
+                <p>I also write some docker images for obsecure projects.</p>
+                <p>Check them out on my github! (click the picture)</p>
+              </div>
+            </div>
+            <div id="project">
+              <img src="assets/placeholder-icon.svg" onclick="alert('idk what to put here so have this prompt instead')" style="cursor: pointer;">
+              <div id="description">
+                <h2>Sysadmin Stuff</h2>
+                <p>I also host game servers for my "friends".</p>
+                <p>I also run some web apps like hastebin for myself.</p>
+              </div>
             </div>
           </div>
         </div>
         <div id="panel4" class="panel">
-          <h2>Contact me here!</h2>
-          <h4>(dont expect a timely response lol)</h4>
-          <div>
-            <a href="https://github.com/DiffuseHyperion"><img src="assets/github-icon-100x100.png"></a>
-            <img src="assets/discord-icon-100x100.png" onclick="alert('Discord friend links aren\'t a thing yet so my tag is DiffuseHyperion#0014')" style="cursor: pointer;">
+          <div class="card">
+            <h2>Contact me here!</h2>
+            <h4>(dont expect a timely response lol)</h4>
+            <div>
+              <a href="https://github.com/DiffuseHyperion"><img src="assets/github-icon-100x100.png"></a>
+              <img src="assets/discord-icon-100x100.png" onclick="alert('Discord friend links aren\'t a thing yet so my tag is DiffuseHyperion#0014')" style="cursor: pointer;">
+            </div>
           </div>
 		    </div>
       </div> 
     </div>
 
     <div class="footer">
-      <p>
+      <p style="font-size: 1vw;">
         Built by me, using
         <a class="hoverable" href="https://scrollmagic.io">ScrollMagic</a>
         and
