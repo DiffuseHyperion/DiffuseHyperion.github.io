@@ -62,18 +62,35 @@ body {
     border-radius: 2vw;
 }
 
-#languages {
-    width: 100%;
-    min-height: 5vw;
-
+.intro-split {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
-#languages img {
-    width: 5vw;
-    height: 5vw;
-    position: absolute;
+.intro-seperator {
+    margin-left: 1vw; 
+    margin-right: 1vw;
+}
+
+.intro-split .intro-left,
+.intro-split .intro-right {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.intro-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.intro-adj {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.intro-adj h2 {
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 #project_list {
